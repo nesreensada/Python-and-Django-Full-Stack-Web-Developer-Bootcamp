@@ -1,0 +1,53 @@
+/*Choose a cool Font Text Scheme*/
+
+h1{
+  font-family: 'Rozha One';
+  text-align: center;
+}
+
+/*Choose a color palette from here:
+https://coolors.co/
+or create your own here:
+paletton.com/*/
+
+/*
+I chose:
+
+#05668D
+#028090
+#00A896
+#02C39A
+#FF1654
+
+*/
+
+.art{
+  margin: auto;
+}
+
+
+td{
+  height: 200px;
+  padding: 100px;
+  border: 6px solid white;
+}
+
+#one{
+  background-color: #05668D;
+}
+
+#two{
+  background-color: #028090;
+}
+
+#three{
+  background-color: #00A896;
+}
+
+#four{
+  background-color: #02C39A;
+}
+
+#five{
+  background-color: #FF1654;
+}
