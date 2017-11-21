@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load staticfiles%}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello</title>
+    <link rel="stylesheet" href="{% static "css/style.css" %}"/>
+  </head>
+  <body>
+    <h1>Hi welcome django two</h1>
+    <h2>here are user records:</h2>
+    <div class="djangtwo" >
+      {% if user_records %}
+      <table>
+        <thead>
+          <th>User first name</th>
+          <th>User last name</th>
+          <th>email Access</th>
+        </thead>
+        {%for user in user_records %}
+        <tr>
+          <td>{{user.first_name}}</td>
+          <td>{{user.last_name}}</td>
+          <td>{{user.email}}</td>
+        </tr>
+        {% endfor %}
+      </table>
+      {% else %}
+      <p> No user record found</p>
+      {% endif %}
+
+  </body>
+</html>
