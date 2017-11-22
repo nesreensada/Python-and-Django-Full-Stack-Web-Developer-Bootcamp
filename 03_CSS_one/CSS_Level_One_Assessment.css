@@ -1,0 +1,84 @@
+/*Welcome to your CSS Level One Assessment Test!
+
+For this test, edit the CSS file and complete the commented tasks below!
+You won't be editing and html, but the css file is linked to the html file.
+Watch the video lecture for more info on this! */
+
+/*Task # 1
+Give the body element of the site a light blue background using HEX code*/
+body{
+  background-color: #b0e0e6;
+}
+
+
+/*Task # 2
+Change the h1 to have a 1px solid black border*/
+h1{
+  border: 1px solid black;
+}
+
+
+/*Task # 3
+Make all h2 elements the color purple*/
+h2{
+  color: purple;
+}
+
+
+/*Task # 4
+Make all input boxes have a 2px solid dark red border (use rgb for this)*/
+input{
+  border: 2px solid rgb(144, 0, 0);
+}
+
+/*Task # 5
+Give a light yellow background to all <p> elements inside of a <div> element
+Use HEX for the color*/
+div p{
+  background-color: #fffca5;
+}
+
+
+/*Task # 6
+There is a textarea element with the id=textblock, give it the following properties:
+* A 5px solid gray border
+* A width of 800px and a height of 400px
+ */
+
+#textblock{
+  border:5px solid gray;
+  height: 400px;
+  width: 800px;
+}
+
+/*Task # 7
+There is a link to Google on the page. Make this link red.*/
+li a[href='http://www.google.com']{
+  color:red;
+}
+
+
+/*Task # 8
+Make elements with the id="itemone" have an overline text-decoration.
+and be the color purple.*/
+#itemone{
+  text-decoration: overline;
+  color: purple;
+}
+
+/*Task # 9
+Finally, make the elements with the class label "exit" have
+a background of blue and a 4px dashed yellow border.*/
+.exit{
+  background-color: blue;
+  border:4px dashed yellow;
+}
+
+
+/*BONUS CHALLENGE: Task 10
+There is a link to Google on the page in the list.
+Can you figure out how to change the color if you click on the link?
+(Hint: Google "css visited") */
+a:visited{
+  color:pink;
+}
